@@ -4,7 +4,7 @@ from setuptools import setup, find_packages
 setup(
     name='geodis',
     description = 'A fast Redis based Geo resolving library',
-    version='2.0.9',
+    version='2.0.10',
     author='DoAT Media LTD.',
     author_email='opensource@everything.me',
     url='https://github.com/EverythingMe/geodis',
