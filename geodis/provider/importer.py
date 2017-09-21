@@ -32,7 +32,7 @@ class Importer(object):
     """
     def __init__(self, fileName ,redisHost, redisPort, redisDB, redisPWD=None):
         self.fileName = fileName
-                self.redis = redis.Redis(host=redisHost, port=redisPort, db=redisDB, password=redisPWD)
+        self.redis = redis.Redis(host=redisHost, port=redisPort, db=redisDB, password=redisPWD)
 
         
     def reset(self, cls):
